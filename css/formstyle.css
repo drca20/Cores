@@ -1,0 +1,125 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family:HP Simplified;
+}
+
+::-webkit-input-placeholder
+{
+	color:#17A768;
+	text-transform:uppercase;
+}
+
+
+.clear
+{
+	clear:both;
+}
+
+.container1
+{
+	width:500px;
+	padding:30px;
+	margin: 20px auto;
+	border-radius:5px;
+}
+
+
+
+.form-control
+{
+	margin-bottom:20px;
+}
+
+.form-control>label
+{
+	width:100%;
+	color:#17A768;
+	text-transform:uppercase;
+	font-size:20px;
+	display:none;
+}
+
+.form-control input[type="text"],
+.form-control input[type="password"],
+.form-control textarea
+{
+	width:100%;
+	color:#17A768;
+	font-size:15px;
+	background:none;
+	border:none;
+	border-bottom:2px dashed #F1AD1D;
+}
+
+.form-control textarea
+{
+	height:100px;
+	resize:none;
+}
+
+.form-control input[type="text"]:focus,
+.form-control input[type="password"]:focus,
+.form-control textarea:focus
+{
+	outline:none;
+	border-bottom:2px solid #F1AD1D;
+}
+
+.form-control input[type="radio"]
+{
+	display:none;
+}
+
+.form-control input[type="radio"] + label 
+{
+	color:#17A768;
+	font-size:15px;
+	text-transform:uppercase;
+	margin-right:10px;
+}
+
+.form-control input[type="radio"] + label span
+{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	border:3px solid #F1AD1D;
+	border-radius:50%;
+	vertical-align:baseline;
+	margin-right:3px;
+}
+
+.form-control input[type="radio"]:checked + label span
+{
+	background: #17A768;
+}
+
+.form-control input[type="submit"]
+{
+	color:#17A768;
+	font-size:15px;
+	text-transform:uppercase;
+	background:none;
+	border:none;
+	border-top:2px dashed #F1AD1D;
+	border-bottom:2px dashed #F1AD1D;
+	padding:3px 10px 3px 10px;
+	float:right;
+}
+
+.form-control input[type="submit"]:hover,
+.form-control input[type="submit"]:focus
+{
+	border-top:2px solid #F1AD1D;
+	border-bottom:2px solid #F1AD1D;
+	outline:none;
+}
+
+.error
+{
+	color:#F1601D;
+	float:right;
+	display:none;
+}
